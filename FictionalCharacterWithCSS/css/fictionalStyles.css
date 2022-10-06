@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*fonts go first*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Covered+By+Your+Grace&family=Secular+One&display=swap');
+/*Apply the fonts*/
+h1, h2, {
+	font-family: 'Bebas Neue', cursive;
+}
+/*set the default font for page*/
+html{
+	font-family: 'Secular One', sans-serif;
+	
+}
+/***********************header area*******************************/
+/*for the header - background colour, padding, center align text*/
+header{
+	background-image: linear-gradient(red,black);
+	text-align: center;
+	border: 15px black;align-self: baseline;
+	/*padding shortcut works the same as margin - tb rl*/
+	padding:50px 50px;
+	color:darkorange;
+}
+
+/***********************SECTIONS*******************************/
+section{
+    /*all the default styles for all sections*/
+    background-image: linear-gradient(black,red);
+	/*text color*/
+	color:white; 
+    /*automatically centers element on page*/
+    margin: center;
+    padding: 30px;
+    /** this will make the section the size of ALL the contents, even those floating*/
+    overflow: hidden;
+}
+section 
+
+/*override with CLASS-more than obe element to look the same but not ALL of the elements look that way*/
+.alternate{
+    background-color: light orange;
+    text-decoration: inherit;
+}
+
+section img{
+	
+	float:center;
+	/*push text off the images*/
+	margin-center: 120px;
+	text-emphasis-color: white;
+}
+/*******************************footer**************************/
+footer{
+	background-image: linear-gradient(red,black);
+	border: 15px black;align-self: baseline;
+	/*white text, center the text, add padding*/
+	color: white;
+	text-align: center;
+	padding: 2px;	
+}
+
+a:link{
+	color:darkorange;
+}
+
+/*previously been to the location of the link*/
+a:visited{
+	color:darkorange;
+}
+
+
+/*when i have my mouse HOVER the element*/
+a:hover{
+	color:white;
+	/*get rid of the underline*/
+	text-decoration:none;
+}
+/*when you are pressing DOWN on the element*/
+a:active{
+	color:darkorange;
+}
+
+/*****************************Button Styling*******************************/
+
+button{
+	background-colour: darkorange;
+	font-size: 20px;
+	/*change to a pointer finger*/
+	cursor:pointer;
+	/*default border-same color as background*/
+	border:2px solid darkorange;
+	/*add a transition to fade between the states*/
+	transition-duration: 0.2s;
+}
+
+button:hover{
+	background-color:#474041;
+	color:white;
+}
+
+
+/**********************************Navigation Bar*********************************/
+
+nav ul {
+    list-style-type: armenian;
+    margin: 50px;
+    padding: 20px;
+    overflow: inherit;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: inherit;
+    text-align: center;
+}
+
+nav li {
+	float: center;
+	font-size: 15px;
+}
+
+nav li a:link {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 18px;
+	text-decoration: none;
+	/*added duration for fade*/
+	transition-duration: 0.10s;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+	background-color: white;
+	
+}
+
+	/*make a ClASS that adds the stickeness to the navbar*/	
+.sticky{
+	position: -webkit-sticky; /*safari*/
+	position: sticky;top:0;
+	text-emphasis-color: white;
+	}
