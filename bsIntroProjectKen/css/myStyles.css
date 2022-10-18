@@ -3,4 +3,20 @@
 
 #masthead{
 	background-color: #01E1BB;
+	background-image: url("mountains.jpg");
+	background-size: cover;
+	background-position: center;
 }
+
+#about{
+/*	background-color: #01E1BB;*/
+	background-image: url("Abstract-blue_0.jpg");
+	background-size: cover;
+	background-position: center; 
+}
+#footer{
+	background-color: #029078;
+}
+
+
+
