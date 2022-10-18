@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap 4</title>
+	
+	<!----------------------------Viewport Meta Tag------------------------------------>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--put ALL font BEFORE any CSS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+<!----------------------------Bootstrap CDNs------------------------------------>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	
+<!--------YOUR CSS - MUST go after the CDNs so you overwrite their styles---------------->
+	<link href="css/myStyles.css" rel="stylesheet" type="text/css">
+
+	
+</head>
+
+<body>
+	
+	<!---------------------------------Masthead------------------------------------>
+	
+	<header id="masthead">
+		<!--always need a container,row and columns-->
+		<div class="container">
+			<div class="row p-5">
+				<div class="col-sm-12 text-center text-white">
+					<img src="images/avatars.svg" alt="Profile Pic" width="25%">
+					<h1>START BOOTSTRAP</h1>
+					<p>Graphic Design | Web Designer | Illustrator</p>
+				</div>
+			</div>
+		</div>	
+		
+	</header>
+	<!---------------------------------Portfolio------------------------------------>
+	<section id="portfolio">
+		<div class="container mt-3 py-3">
+			<!--first row-->
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>PORTFOLIO</h2>
+				</div>
+			</div> <!--closes the row-->
+			
+			<!--second row-->
+			<div class="row py-4 px-4">
+				<div class="col-sm-4">
+					<!--Left Column-->
+					<img class="img-fluid rounded" src="images/cabin.png" alt="Cabin" >
+				</div>
+				<div class="col-sm-4">
+					<!--Middle Column-->
+					<img class="img-fluid rounded" src="images/cake.png" alt="Cake">
+				</div>
+				<div class="col-sm-4">
+					<!--Right Column-->
+					<img class="img-fluid rounded" src="images/circus.png" alt="Circus">
+				</div>
+			</div>
+			
+			<!--third row-->
+			<!--row> three equal colums> imgae with the respomsive image class-->
+			<div class="row py-4 px-4">
+				<div class="col-sm-4">
+					<!--left Column-->
+					<img class="img-fluid rounded" src="images/game.png" alt="Game">
+				</div>
+				<div class="col-sm-4">
+					<!--Middle Column-->
+					<img class="img-fluid rounded" src="images/safe.png" alt="Safe">
+				</div>
+				<div class="col-sm-4">
+					<!--Right Column-->
+					<img class="img-fluid rounded" src="images/submarine.png" alt="Submarine">
+				</div>
+			</div>
+		</div><!--closes the container-->
+		
+	</section>
+	
+	
+	
+	
+	<!---------------------------------About------------------------------------>
+	
+	<section id="about">
+		<div class="container text-white mt-3 py-3"> 
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>ABOUT</h2>
+				</div>
+			</div> <!--ends first row-->
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eos est adipisci. Ab ullam nisi nulla, molestiae, harum aut, maxime minima voluptatem consequatur iure at. Itaque assumenda, quas doloribus incidunt.</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatum ducimus ex quod, a suscipit soluta dolorem molestias, error, voluptates ipsa mollitia blanditiis dolore pariatur praesentium autem rerum neque aspernatur!</p> 
+				</div>
+			</div><!--ends second row-->
+			<!--row, 12 col, inside is button-->
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<button type="button" class="btn btn-outline-light btn-lg">Light</button>
+				</div>
+			</div> <!--ends first row-->
+		</div><!--ends container-->
+		
+	</section>
+	
+	
+	
+	<!---------------------------------Footer------------------------------------>
+	
+	<section id="footer">
+		<!--container> row> the columns-->
+		<!--three equal sized columns-->
+		<!--each column will have a h4 title, paragraph with 15 words-->
+		<!--add a background colour to that area-->
+		<div class="container text-white py-5">
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<h4>LOCATION</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-sm-4">
+					<h4>AROUND THE WORLD</h4>
+					<p>
+					<i class="fab fa-facebook fa-2x fa-spin"></i>
+					<i class="fab fa-twitter-square fa-2x fa-spin mx-3"></i>
+					<i class="	fab fa-instagram fa-2x fa-spin mx-3"></i>
+					<spam class="fas fa-skull fa-2x fa-spin"></spam>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h4>ABOUT FREELANCER</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	
+	
+	
+	
+	
+</body>
+</html>
