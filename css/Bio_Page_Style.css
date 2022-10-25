@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wght@700&family=Oregano&family=Poppins:wght@200;600&display=swap');
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: sandybrown;
+}
+.logo{
+	color:white;
+	letter-spacing: 8px;
+	font-size: 50px;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+.nav-links a{
+	color: white;
+	text-decoration:overline;
+	letter-spacing: 4px;
+	font-weight: 100;
+	font-size: 20px;
+}
+#masthead{
+	background-image: url("D49F9BE6-49CE-413D-9580-3FA3AECB2BE5 2.JPG");
+	background-size: cover;
+	background-position: center;
+}
+.mastrow{
+	height: 50vh;
+}
+#about{
+	display: flex;
+	justify-content: space-around;
+	background-color: sandybrown;
+	background-size: cover;
+	background-position: center; 
+	font-family: 'Poppins', sans-serif;
+}
+#portfolio{
+	background-color: paleturquoise;
+	font-family: 'Poppins', sans-serif;
+}
+#mytravel{
+	background-color: sandybrown;
+	font-family: 'Poppins', sans-serif;
+}
+#footer{
+	background-color: paleturquoise;
+	font-family: 'Poppins', sans-serif;
+}
+
