@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Marhey:wght@300;700&family=Open+Sans:wght@700&family=Oregano&family=Poppins:wght@200;600&display=swap');
+html{
+	overflow-x: hidden;
+}
+
+/*********************HERO BANNER******************/
+#homeMasthead{
+	background-image: url("../images/BackgroundHeader/dubai.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+}
+#geoMasthead{
+	background-image: url("../images/BackgroundHeader/geography.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+}
+#peopleMasthead{
+	background-image: url("../images/BackgroundHeader/people.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+}
+#economyMasthead{
+	background-image: url("../images/Economy/pic1.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+}
+#attractionsMasthead{
+	background-image: url("../images/BackgroundHeader/attractions.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+
+}
+#referencesMasthead{
+	background-image: url("../images/Attractions/pexels-aleksandar-pasaric-3629227.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Marhey', cursive;
+
+}
+#Portfolio{
+	background-image:url("../images/BackgroundHeader/pexels-carlos-herrera-9251622.jpg");
+	font-family: 'Marhey', cursive;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*********************MASTHEAD******************/
+#homeMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+
+#geoMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+
+#peopleMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+
+#economyMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+
+#attractionsMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+#referencesMasthead .display-1{
+font-family: 'Marhey', cursive;
+}
+
+.carousel-inner img {
+    width: 60%;
+    height: 60%;
+  }
+
+h2{
+	color: black;
+}
+.bg-dark{
+	backgorund-color: white !important;
+}
+.height80{
+	height:90vh;
+}
+
+/*********************FOOTER******************/
+footer{
+	background-color: sandybrown;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:navajowhite;
+	
+}
+a{
+	color: navajowhite;
+}
+a:link, a:visited{
+	color:saddlebrown;
+}
+a:hover{
+	color:navajowhite;
+}
+
+/****Small devices media queries******************/
+@media only screen and (min-width: 576px) {
+	#homeMasthead .display-1{
+		font-size: 60pt;
+	}
+	
+	#geoMasthead .display-1{
+		font-size: 60pt;
+	}
+	
+	#peopleMasthead .display-1{
+		font-size: 60pt;
+	}
+	#economyMasthead .display-1{
+		font-size: 60pt;
+	}
+	#attractionsMasthead .display-1{
+		font-size: 60pt;
+	}
+	#referencesMasthead .display-1{
+		font-size: 60pt;
+	}
+}
+
+
+/****medium devices media queries******************/
+@media only screen and (min-width: 768px) {
+	#homeMasthead{
+		background-color: sandybrown;
+		background-image: url("../images/BackgroundHeader/dubai.jpg");
+	}
+	#geoMasthead{
+		background-color: sandybrown;
+		background-image: url("../images/BackgroundHeader/geography.jpg");
+	}
+	#peopleMasthead{
+		background-color: sandybrown;
+		background-image: url("../images/BackgroundHeader/people.jpg");
+	}
+	#economyMasthead{
+		background-color: sandybrown;
+		background-image: url("../images/Economy/pic1.jpg");
+	}
+	#attractionsMasthead{
+		background-color: sandybrown;
+		background-image: url("../images/BackgroundHeader/attractions.jpg");
+	}
+	#referencesMasthead{
+		background-color: sandybrown;
+		background-image:url("../images/BackgroundHeader/pexels-carlos-herrera-9251622.jpg");
+	}
+	#homeMasthead .display-1{
+		font-size: 110px;
+	}	
+	
+	#geoMasthead .display-1{
+		font-size: 110px;
+	}	
+	#peopleMasthead .display-1{
+		font-size: 110px;
+	}
+	#economyMasthead .display-1{
+		font-size: 110px;
+	}
+	#attractionsMasthead .display-1{
+		font-size: 110px;
+	}
+	#referencesMasthead .display-1{
+		font-size: 110px;
+	}
+}
+
