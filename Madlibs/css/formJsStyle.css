@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wght@700&family=Oregano&family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Marhey:wght@300;700&family=Open+Sans:wght@700&family=Oregano&family=Poppins:wght@200;600&display=swap');
+
+
+nav{
+	justify-content: space-around;
+	align-items: center;
+	min-height: 12vh;
+}
+
+
+header{
+    background-color:black;
+	font-family: 'Marhey', cursive;
+	
+}
+
+
+body{
+	background-image:url("../images/pic4.jpg");
+	font-family: 'Marhey', cursive;
+}
+	
+
+footer{
+	background-color:teal;
+	font-family: 'Marhey', cursive;
+}
+
+
+@media only screen and (min-width: 576px) {
+.display-1{
+	font-size: 110pt;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
