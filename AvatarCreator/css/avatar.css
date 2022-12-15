@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Open+Sans:wght@700&family=Oregano&family=Poppins:wght@200;600&display=swap');
+
+#builder{
+	position: relative;
+	height: 650px;
+}
+#background, #face, #hair, #lips, #coat, #headset{
+	position: absolute;
+}
+
+/*********************HEADER******************/	
+
+header{
+	background-color:darkorange;
+	font-family: 'Poppins', sans-serif;
+	background-size:cover;
+	width: 1000px;
+  	border: 5px ;
+  	padding: 5px;
+	margin: auto;   
+}
+/*********************BODY******************/
+
+body{
+	background-image:url("../originalLayout/fall.jpg");
+	font-family: 'Poppins', sans-serif;
+	background-size:auto;
+	
+}
+
+#refection{
+	background-color:burlywood;
+	font-family: 'Poppins', sans-serif;
+	background-size:contain;
+	width: 1000px;
+  	border: 5px ;
+  	padding: 5px;
+	margin: auto;  
+}
+/*********************FOOTER******************/
+
+#footer{
+	background-color:darkorange;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	color: navajowhite;
+}
+a:link, a:visited{
+	color:saddlebrown;
+}
+a:hover{
+	color:navajowhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
